@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "sh_product_category": {
+            "type": "integer",
+            "input": "foreignKey",
+            "collection": "sh_product_category"
+        },
+
+        "status": {
+            "type": "integer",
+            "input": "select",
+            "values": [
+                "Амжилттай дууссан",
+                "Бэлдэж байгаа"
+            ]
+        }
+    }
+}

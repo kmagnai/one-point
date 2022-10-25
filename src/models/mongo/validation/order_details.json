@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "count": {
+            "type": "integer"
+        },
+        "product": {
+            "$ref": "sh_product"
+        },
+        "categorydd": {
+            "type": "integer"
+        }
+    },
+    "computed": {
+        "product_id": "product._id",
+        "price": "product.price"
+    },
+    "refs": [
+        "sh_product",
+        "order"
+    ]
+}

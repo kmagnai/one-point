@@ -1,0 +1,1 @@
+{"type":"Object","properties":{"orderr_id":{"type":"integer","relType":"ManyToOneBoth","foreignCollection":"order","foreignField":"odd3"}},"refs":[]}

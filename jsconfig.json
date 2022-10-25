@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "src_err/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
